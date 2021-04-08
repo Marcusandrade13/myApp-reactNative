@@ -19,14 +19,13 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+    "android": {    
+      "config" : {
+      "googleMaps" : {
+        "apiKey": "API KEY"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+     }
+}
   }
 }
+
